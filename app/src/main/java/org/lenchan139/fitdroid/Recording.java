@@ -56,18 +56,11 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.concurrent.ExecutionException;
 
 public class Recording extends AppCompatActivity {
 
-    // JDBC driver name and database URL
-    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://163.44.168.186/TableX";
 
     private int[] time = new int[]{0,0,0};
-    //  Database credentials
-    static final String USER = "root";
-    static final String PASS = "usbw";
     private String endTime;
     final String url1 = "http://blog.lenchan139.org/FitDroid/insert1.php";
     private String strSportType, strRemarks, startTime;
