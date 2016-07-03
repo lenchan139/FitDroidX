@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FitDroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string-array name="sport_type_array">
+        <item>Running</item>
+        <item>Tennis</item>
+        <item>Swimming</item>
+        <item>Bikecycle</item>
+        <item>Football</item>
+        <item>Hiking</item>
+        <item>Sleeping</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="ABC">
+
+    </string-array>
+
+</resources>
